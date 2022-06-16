@@ -1,0 +1,6 @@
+<?php
+
+/*
+
+@yield('content')
+*/
