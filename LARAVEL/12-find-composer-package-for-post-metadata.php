@@ -109,7 +109,6 @@ Route::get('/', function () {
             <a href="/posts/<?php $post->slug; ?>">
                 <?php $Post->title; ?>
             </a>
-            
         </h1>
 
         <div>

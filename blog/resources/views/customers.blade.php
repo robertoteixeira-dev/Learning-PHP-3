@@ -6,6 +6,12 @@
         <title>Laravel</title>
     </head>
     <body>
-        <h1>Week 3 - Challenge 2</h1>
+        <div>
+        @foreach ($customers as $customer)
+
+            <h1>{{ $customer['first_name'] }}</h1>
+            
+        @endforeach
+        </div>
     </body>
 </html>

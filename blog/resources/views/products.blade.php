@@ -6,6 +6,13 @@
         <title>Laravel</title>
     </head>
     <body>
-        <h1>Week 3 - Challenge 2</h1>
+        <div>
+        @foreach ($products as $product)
+
+            <h1>{{ $product['title'] }}</h1>
+            <p>{{ $product['description'] }}</p>
+
+        @endforeach
+        </div>
     </body>
 </html>
