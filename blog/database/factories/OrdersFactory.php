@@ -20,7 +20,7 @@ class OrdersFactory extends Factory
     {
         return [
             'customer_id' => Customers::factory(),
-            'item_count' => $this->faker->randomElement([1, 5]),
+            'item_count' => $this->faker->randomNumber(1, 100),
             'sub_total' => Products::factory('unit_price'),
             'shipping' => 3.99,
             'taxes' => 0.10,
